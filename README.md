@@ -10,7 +10,7 @@ A simple Flutter project to display a scrollable list of music items with their 
 
 ## Screenshots
 
-<img src="assets/readme/music_list_view_ss.png" width="500" height="auto" />
+<img src="assets/readme/music_list_view_ss.png" width="200" height="auto" />
 
 ## Tech Stack
 
