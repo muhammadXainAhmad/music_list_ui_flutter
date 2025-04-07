@@ -15,18 +15,24 @@ class _MyMusicListState extends State<MyMusicList> {
       appBar: AppBar(
           backgroundColor: Colors.black,
           actions: [
-            Icon(
-              Icons.search_sharp,
-              color: Colors.grey.shade400,
-              size: 28,
+            InkWell(
+              onTap: () {},
+              child: Icon(
+                Icons.search_sharp,
+                color: Colors.grey.shade400,
+                size: 28,
+              ),
             ),
             const SizedBox(
               width: 5,
             ),
-            Icon(
-              Icons.more_vert_sharp,
-              color: Colors.grey.shade400,
-              size: 28,
+            InkWell(
+              onTap: () {},
+              child: Icon(
+                Icons.more_vert_sharp,
+                color: Colors.grey.shade400,
+                size: 28,
+              ),
             ),
             const SizedBox(
               width: 12,
@@ -96,10 +102,13 @@ class _MyMusicListState extends State<MyMusicList> {
                         )),
                     Expanded(
                       flex: 1,
-                      child: Icon(
-                        Icons.more_vert_sharp,
-                        color: Colors.grey.shade400,
-                        size: 28,
+                      child: InkWell(
+                        onTap: () {},
+                        child: Icon(
+                          Icons.more_vert_sharp,
+                          color: Colors.grey.shade400,
+                          size: 28,
+                        ),
                       ),
                     )
                   ],
